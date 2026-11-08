@@ -13,8 +13,9 @@
 `Kotlin` `Flutter` `Android` `AI Agent`
 
 ### 🎙 [classroom-translator](https://github.com/soyoung5565/classroom-translator) — 课堂实时翻译 App
-实时课堂翻译：三引擎可切换 ASR（云端流式 / 本地离线 / 分片回退）+ LLM 翻译，双语卡片即时呈现；课后整课录音转写。**85 个提交**的完整开发轨迹，从设计稿到真机像素级还原。
+实时课堂翻译：三引擎可切换 ASR（云端流式 / 本地离线 / 分片回退）+ LLM 翻译，双语卡片即时呈现；课后整课录音转写。**93 个提交**的完整开发轨迹，从设计稿到真机像素级还原。v1.6.0 双引擎热切换轮换，识别结果显示完整。
 `Kotlin` `Jetpack Compose` `WebSocket` `LLM` `ASR`
+[下载 v1.6.0 APK](https://github.com/soyoung5565/classroom-translator/releases/tag/v1.6.0)
 
 ### 📚 [family-tutor](https://github.com/soyoung5565/family-tutor) — AI 家庭教师系统
 面向小学三科的完整教学闭环：按知识点出卷 → 两阶段批改（先让学生自己找错）→ 错题微课堂。含 **1.2 万+ 题**的题库与建设工具链。
@@ -23,6 +24,22 @@
 ### 🎧 [asr-evaluation](https://github.com/soyoung5565/asr-evaluation) — ASR 模型评测与本地部署
 面向马来西亚口音 / 中英混说场景：**5 个模型 × 3 个测试集（1453 句真人音频）** 横向评测；WSL2 + vLLM 流式部署与整课转录服务。
 `ASR` `Benchmark` `vLLM` `Whisper` `Qwen`
+
+### 🐱 [hsr-pet](https://github.com/soyoung5565/hsr-pet) — 崩铁随宠桌面宠物
+Windows 桌面宠物：**精灵表 + 透明视频双形态**（4 只随宠 / 19 表情包 / 17 循环动画），多模态大模型对话、系统空闲感知驱动的主动搭话、本地长期记忆。**37,031 行**代码，基于 MIT 开源底座自研。
+`Electron` `React` `PIXI` `多模态` `LLM`
+
+### 🖥️ [screen-translator-standalone](https://github.com/soyoung5565/screen-translator-standalone) — 屏幕实时翻译（独立版）
+框选屏幕区域 → 多模态模型直接返回**译文 + 坐标** → **像素级原位贴字**（原文半透可见便于校对）。**无 OCR、无 Agent 框架依赖**，4,652 行 + 6 套测试 + 打包自检闭环。
+`Python` `PyQt5` `mss` `多模态`
+
+---
+
+## 🛒 独立项目
+
+**[ecommerce-cs-agent](https://github.com/soyoung5565/ecommerce-cs-agent)** — 电商智能客服 Agent（FastAPI）
+拼多多平台适配 + 售后决策引擎 + 恶意退货检测 + 42 规则 Prompt 注入防护 + L0-L3 Agent 编排。5,455 行 Python。
+`Python` `FastAPI` `RAG` `Docker`
 
 ---
 
